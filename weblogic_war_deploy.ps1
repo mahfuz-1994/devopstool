@@ -9,7 +9,7 @@ $target = "AdminServer"
 
 # Deploy the application using weblogic.Deployer
 #"YOU CAN FIND WEBLOGIC.JAR IN GIVEN PATH:- Oracle_Home\wlserver\server\lib\weblogic.jar (WEBLOGIC.DEPLOYER IS PRESENT IN THE WEBLOGIC.JAR AS A CLASSPATH(CP))"
-cmd.exe java -cp "D:\Oracle\Middleware\Oracle_Home\wlserver\server\lib\weblogic.jar" weblogic.Deployer `
+java -cp "D:\Oracle\Middleware\Oracle_Home\wlserver\server\lib\weblogic.jar" weblogic.Deployer `
  -verbose `
  -noexit `
  -adminurl $adminUrl `
