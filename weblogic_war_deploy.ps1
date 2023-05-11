@@ -1,7 +1,7 @@
 ﻿
 # Set the variables for the deployement
 #USE t3 INSTEAD OF http IF YOU HAVE NOT ENABLED THE TUNNELING. IF YOU WANT TO ENABLE TUNNELING IN SERVER>PROTOCALS>GENERAL>ENABLE TUNNELING
-$adminUrl = "http://192.168.5.199:7001"
+$adminUrl = "t3://192.168.5.199:7001"
 $username = "weblogic"
 $password = "weblogic@123"
 $appPath = "C:\Users\win10\.jenkins\workspace\Weblogic_deploy\target\devopstool.war"
